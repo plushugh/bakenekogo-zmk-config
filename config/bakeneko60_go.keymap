@@ -69,11 +69,11 @@
 
         layer_3 {
             bindings = <
-&kp GRAVE     &kp F1  &kp F2  &kp F3      &kp F4  &kp F5  &kp F6            &kp F7    &kp F8  &kp F9     &kp F10     &kp F11  &kp F12         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&mt LCTRL UP  &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans  &trans     &trans      &trans   &trans                             &kp DELETE
-&trans        &trans  &trans  &trans      &trans  &trans  &kp LEFT          &kp DOWN  &kp UP  &kp RIGHT  &trans      &trans                                      &trans
-&trans                &trans  &trans      &trans  &trans  &trans            &trans    &trans  &trans     &trans      &trans   &trans                             &trans
-&trans        &trans          &kp K_PREV                  &kp K_PLAY_PAUSE                               &kp K_NEXT  &trans   &mt LCTRL LEFT                     &mt LCTRL RIGHT
+&kp GRAVE     &kp F1  &kp F2  &kp F3      &kp F4  &kp F5  &kp F6            &kp F7    &kp F8  &kp F9     &kp F10     &kp F11  &kp F12                      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&mt LCTRL UP  &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans  &trans     &trans      &trans   &trans                                          &kp DELETE
+&trans        &trans  &trans  &trans      &trans  &trans  &kp LEFT          &kp DOWN  &kp UP  &kp RIGHT  &trans      &trans                                                   &trans
+&trans                &trans  &trans      &trans  &trans  &trans            &trans    &trans  &trans     &trans      &trans   &trans                                          &trans
+&trans        &trans          &kp K_PREV                  &kp K_PLAY_PAUSE                               &kp K_NEXT  &trans   &mt LEFT_CONTROL LEFT_ARROW                     &mt LEFT_CONTROL RIGHT_ARROW
             >;
         };
 
