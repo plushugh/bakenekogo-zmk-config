@@ -91,13 +91,13 @@
             >;
         };
 
-        layer_3 {
+        actions {
             bindings = <
 &kp GRAVE         &kp F1  &kp F2  &kp F3      &kp F4  &kp F5  &kp F6            &kp F7    &kp F8  &kp F9     &kp F10     &kp F11  &kp F12      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
 &mission_control  &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans  &trans     &trans      &trans   &trans                          &kp DELETE
 &trans            &trans  &trans  &trans      &trans  &trans  &kp LEFT          &kp DOWN  &kp UP  &kp RIGHT  &trans      &trans                                   &trans
 &trans                    &trans  &trans      &trans  &trans  &trans            &trans    &trans  &trans     &trans      &trans   &trans                          &trans
-&trans            &trans          &kp K_PREV                  &kp K_PLAY_PAUSE                               &kp K_NEXT  &trans   &prev_space                     &next_space
+&trans            &trans          &kp C_PREV                  &kp C_PLAY_PAUSE                               &kp C_NEXT  &trans   &prev_space                     &next_space
             >;
         };
 
